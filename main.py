@@ -1,7 +1,10 @@
-nome = "programador python"
-idade = 19
-peso = 81.2
+salario = float(input ("digite seu salario"))
 
-print (nome)
-print (idade)
-print (peso)  
+if salario <= 3000:
+   print ("programador junior")
+elif salario > 3000 and salario <= 6000:
+   print ("programador pleno")
+elif salario > 6000 and salario <= 15000:
+   print ("programador senior")
+else: 
+   print ("genrente de projetos")
